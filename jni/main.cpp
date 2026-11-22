@@ -7,10 +7,10 @@
 MYMOD(net.kamu.gta3viewdist, GTA3 View Distance, 1.0, Kamu)
 
 // ====== ATUR DI SINI (1.0 = normal) ======
-static const float LOD_SCALE    = 2.0f;  // jarak model detail (bawaan game: 1.2, ini nilai langsung)
-static const float FARCLIP_MULT = 1.5f;  // pengali jarak render maksimum
-static const float FOG_MULT     = 1.5f;  // pengali awal kabut (samakan dengan FARCLIP_MULT)
-static const float STREAM_MULT  = 2.0f;  // pengali memori streaming map
+static const float LOD_SCALE    = 50.0f;  // jarak model detail (bawaan game: 1.2, ini nilai langsung)
+static const float FARCLIP_MULT = 100.5f;  // pengali jarak render maksimum
+static const float FOG_MULT     = 5.5f;  // pengali awal kabut (samakan dengan FARCLIP_MULT)
+static const float STREAM_MULT  = 50.0f;  // pengali memori streaming map
 // =========================================
 
 static float   *pLodScale  = nullptr;
